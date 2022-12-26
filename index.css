@@ -94,4 +94,55 @@ main .right {
 main .right .message {
   font-size: 1.5rem;
   padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+  header .number {
+    max-width: 15rem;
+    padding: 30px 50px;
+    background-color: #eee;
+    bottom: -55px;
+    font-size: 3rem;
+    left: 40%;
+  }
+  header .btn {
+    padding: 10px;
+  }
+  main .left .guess {
+    padding: 10px;
+  }
+  main .left .btn {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  main .right .message {
+    padding: 20px 0;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  header .head-text {
+    font-size: 1.5rem;
+  }
+  header .number {
+    left: 32%;
+  }
+  header .between {
+    top: 30%;
+    left: 15%;
+  }
+  header .btn {
+    top: 10%;
+    left: 30%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .left {
+    gap: 20px;
+    height: 20vh;
+  }
 }/*# sourceMappingURL=index.css.map */

@@ -97,3 +97,67 @@ main {
     }
   }
 }
+// Media
+
+@media (max-width: 768px) {
+  header {
+    .number {
+      max-width: 15rem;
+      padding: 30px 50px;
+      background-color: #eee;
+      bottom: -55px;
+      font-size: 3rem;
+      left: 40%;
+    }
+    .btn {
+      padding: 10px;
+    }
+  }
+  main {
+    .left {
+      .guess {
+        padding: 10px;
+      }
+      .btn {
+        padding: 10px;
+        font-size: 1rem;
+      }
+    }
+
+    .right {
+      .message {
+        padding: 20px 0;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  header {
+    .head-text {
+      font-size: 1.5rem;
+    }
+    .number {
+      left: 32%;
+    }
+    .between {
+      top: 30%;
+      left: 15%;
+    }
+    .btn {
+      top: 10%;
+      left: 30%;
+    }
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .left {
+      gap: 20px;
+      height: 20vh;
+    }
+  }
+}
